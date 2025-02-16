@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.container{
+    background-color: rgb(255, 251, 247);
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.ImgDiv img{
+    width: 410px;
+    height: auto;
+}
+.Content-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 3rem 6rem;
+    flex-wrap: wrap;
+}
+
+.Content-div h2{
+    font-weight: 500;
+    position: relative;
+    font-size:x-large;
+  
+    margin-right: 500px;
+}
+.radio-btn{
+    position: relative;
+    bottom: 120px;
+    width: 22px;
+    display: flex;
+  gap: 10px;
+}
+.radio-email{
+    margin: 4px;
+}
+.radio-Phone{
+    position: relative;
+    left: 30px;
+}
+.footer_section{
+    background-color: #F8F8F8;
+    max-height: 100%;
+    max-width: 100%;
+    padding-bottom: 50px;
+}
+.navigation-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 80%;
+    margin-left: 30px;
+    
+}
+.link_container a{
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 2.1rem;
+    color: rgb(105, 105, 105);
+    margin: 0.5rem 0px;
+    font-weight: 300 ;
+   
+}
+.link_container  h5{ 
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin: 0px 0px 1.2rem;
+  
+}
+.socail_links
+{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+.section-button{
+    position: relative;
+    left: 1000px;
+    bottom: 20px;
+   gap: 10px;
+  
+}
+.section-button button{
+  
+    width: max-content;
+    max-width: 100%;
+    cursor: pointer;
+    position: relative;
+    padding: 0.3rem 0.7rem;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 0.6rem;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Poppins;
+
+}
+.Main-content h1{
+    font-weight: 500;
+    margin: 0px 0px 0rem 40px;
+    color: rgb(54, 54, 54);
+    font-size: 1.8rem;
+    line-height: 4rem;
+}
+.Popular_cuisines{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: .8rem 2rem;
+    border: 2px solid rgb(240, 240, 240);
+    border-radius: 10px;
+    text-align:start;
+}
+.Maincontainer{
+    background: rgb(252, 252, 252);
+    max-width: 100%;
+    max-height: max-content;
+    background: scroll;
+}
